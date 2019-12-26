@@ -1,0 +1,12 @@
+server:
+  port: 9201
+spring:
+  application:
+    name: cassandra-demo-restful
+  data:
+    cassandra:
+      contact-points: 192.168.7.36
+      port: 9042
+      keyspace-name: demo_key_space
+      schema-action: create_if_not_exists
+
