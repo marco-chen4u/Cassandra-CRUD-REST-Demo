@@ -22,6 +22,6 @@ public class SwaggerConfig {
     }
 
     private ApiInfo buildApiInf() {
-        return new ApiInfoBuilder().title("Cassandra User CRUD RESTful API").version("1.0").build();
+        return new ApiInfoBuilder().title("Cassandra CRUD RESTful API").version("2.0").build();
     }
 }

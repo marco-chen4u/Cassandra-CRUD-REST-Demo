@@ -2,13 +2,12 @@ package com.marco.cassandra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-public class CassandraUserDemoApplication {
+public class CassandraApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CassandraUserDemoApplication.class, args);
+        SpringApplication.run(CassandraApplication.class, args);
     }
 
 }
