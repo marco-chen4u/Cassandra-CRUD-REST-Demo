@@ -5,7 +5,7 @@ spring:
     name: cassandra-demo-restful
   data:
     cassandra:
-      contact-points: 192.168.7.36
+      contact-points: 34.222.120.7 #34.209.240.237[docker-aws-3] #54.218.229.238[docker-aws-1] #54.218.81.61[docker-aws-2] #192.168.7.36[localhoast]
       port: 9042
       keyspace-name: demo_key_space
       schema-action: create_if_not_exists
