@@ -33,10 +33,10 @@ please see section of Questions for review and knowledge to know in [AWS-Ubuntu-
 ## API testing
 open web browser access http://127.0.0.1:9201/swagger-ui.html#/  
 ### RESTFUL API
-[RESTFULI api](.//image/swagger-test1.png)  
+![RESTFULI api](.//image/swagger-test1.png)  
 
 ### User Controller API
-[User Controller api](.//image/swagger-test-user-controller.png)  
+![User Controller api](.//image/swagger-test-user-controller.png)  
 
 ### Vehicle Tracker Controller API
-[Vehicle Tracker Controller api](.//image/swagger-test-vehicle-tracker-controller.png)
+![Vehicle Tracker Controller api](.//image/swagger-test-vehicle-tracker-controller.png)
