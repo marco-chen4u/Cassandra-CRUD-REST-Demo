@@ -3,9 +3,11 @@ Cassandra CRUD Demo by REST, it's a Spring Boot Data Cassandra tech stack
 
 Demostrate How to use Partition Key and Clustering Key from the model objects, DAOs, services and controllers.
 
-In controllers, the are introduced by Swagger functionality, so to get more easier for testing.
+* In controllers, the are introduced by Swagger functionality, so to get more easier for testing.
 
-I also provide some data source sample for your database(aka keyspace in cassandra) to run in CQL import them.
+* It also provides some data source sample for your database(aka keyspace in cassandra) to run in CQL import them.
+
+* Swagger functionality
 
 ## Setting up
 ### Cassandra
@@ -13,7 +15,6 @@ Requirement : Ubuntu Server 18.04, AWS free tire instance
 
 ## Cassandra installation guide
 please read [AWS-Ubuntu-Cassandra-cluster setting up](https://bit.ly/2NiolAN)
-* this guide document could be found in the file folder of database-data-sample
 
 ## Database and table import
 ### database creation
@@ -28,3 +29,14 @@ please see section of Questions for review and knowledge to know in [AWS-Ubuntu-
 
 ### table data import
 please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](https://bit.ly/2NiolAN)  
+
+## API testing
+open web browser access http://127.0.0.1:9201/swagger-ui.html#/  
+### RESTFUL API
+[RESTFULI api](.//image/swagger-test1.png)  
+
+### User Controller API
+[User Controller api](.//image/swagger-test-user-controller.png)  
+
+### Vehicle Tracker Controller API
+[Vehicle Tracker Controller api](.//image/swagger-test-vehicle-tracker-controller.png)
