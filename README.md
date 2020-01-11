@@ -17,12 +17,12 @@ please read [AWS-Ubuntu-Cassandra-cluster setting up](https://bit.ly/2NiolAN)
 
 ## Database and table import
 ### database creation
-Login to the cassandra linux environment
-ubuntu@aws-cassandra-1:~$ cqlsh
-cqlsh\> SOURCE 'file-path/database_tables_creation.cql'
-...
+Login to the cassandra linux environment  
+ubuntu@aws-cassandra-1:~$ cqlsh  
+cqlsh\> SOURCE 'file-path/database_tables_creation.cql'  
+...  
 cqlsh\> use demo_key_space ;   
-cqlsh:demo_key_space>
+cqlsh:demo_key_space\>  
 please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](https://bit.ly/2NiolAN)
 * this [database_tables_creation.cql](.//database-data-sample/database_tables_creation.cql) could be found in the file folder of database-data-sample
 * this guide document could be found in the file folder of database-data-sample
