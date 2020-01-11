@@ -12,21 +12,21 @@ I also provide some data source sample for your database(aka keyspace in cassand
 Requirement : Ubuntu Server 18.04, AWS free tire instance
 
 ## Cassandra installation guide
-please read <<AWS-Ubuntu-Cassandra-cluster setting up>>
+please read [AWS-Ubuntu-Cassandra-cluster setting up](./database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.rtf)
 * this guide document could be found in the file folder of database-data-sample
 
 ## Database and table import
 ###database creation
 Login to the cassandra linux environment
 ubuntu@aws-cassandra-1:~$ cqlsh
-cqlsh> SOURCE 'file-path/database_tables_creation.cql'
+cqlsh\> SOURCE 'file-path/database_tables_creation.cql'
 ...
-cqlsh> use demo_key_space ;   
+cqlsh\> use demo_key_space ;   
 cqlsh:demo_key_space>
-please see section of Questions for review and knowledge to know in <<AWS-Ubuntu-Cassandra-cluster setting up>>
-* this database_tables_creation.cql could be found in the file folder of database-data-sample
+please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](./database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.rtf)
+* this [database_tables_creation.cql](.//database-data-sample/database_tables_creation.cql) could be found in the file folder of database-data-sample
 * this guide document could be found in the file folder of database-data-sample
 
 ###table data import
-please see section of Questions for review and knowledge to know in <<AWS-Ubuntu-Cassandra-cluster setting up>>
+please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](./database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.rtf)
 * this guide document could be found in the file folder of database-data-sample
