@@ -30,4 +30,3 @@ please see section of Questions for review and knowledge to know in <<AWS-Ubuntu
 ###table data import
 please see section of Questions for review and knowledge to know in <<AWS-Ubuntu-Cassandra-cluster setting up>>
 * this guide document could be found in the file folder of database-data-sample
-
