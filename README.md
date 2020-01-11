@@ -23,10 +23,10 @@ cqlsh\> SOURCE 'file-path/database_tables_creation.cql'
 ...
 cqlsh\> use demo_key_space ;   
 cqlsh:demo_key_space>
-please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](.//database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.rtf)
+please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](.//database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.doc)
 * this [database_tables_creation.cql](.//database-data-sample/database_tables_creation.cql) could be found in the file folder of database-data-sample
 * this guide document could be found in the file folder of database-data-sample
 
 ### table data import
-please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](.//database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.rtf)
+please see section of Questions for review and knowledge to know in [AWS-Ubuntu-Cassandra-cluster setting up](.//database-data-sample/AWS-Ubuntu-Cassandra-cluster setting up.doc)
 * this guide document could be found in the file folder of database-data-sample
